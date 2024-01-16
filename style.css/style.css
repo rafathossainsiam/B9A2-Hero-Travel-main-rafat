@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-1 {
+    display: flex;
+}
+
+.nav-container {
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container img {
+
+    width: 70px;
+    height: 56px;
+}
+
+.nav-container p {
+    font-size: 34px;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #FF5400;
+    font-weight: 800;
+}
+
+.style {
+    color: #131318;
+}
+
+.nav-itams {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.nav-itams a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #424247;
+
+}
+
+.Home {
+    color: #FF5400;
+}
+
+.header {
+    display: flex;
+}
+
+.header-left {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+
+.logo {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.header-left h1 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.header-right a {
+    width: auto;
+    margin: auto;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+body {
+    width: 70%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    object-fit: cover;
+    width: 1170px;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+.header-tittle {
+    width: 596px;
+    height: 80px;
+    margin-left: 287px;
+    margin-top: 106px;
+}
+
+.header-tittle h1 {
+    font-size: 64px;
+    font-family: 'Mulish', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-content {
+    margin: 0px auto;
+    width: 660px;
+    height: 50px;
+}
+
+.header-content p {
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+}
+
+.input-item{
+    width: 800px;
+    height: 84px;
+margin:48px auto ;
+display: flex;
+gap: 24px;
+justify-content: space-between;
+
+}
+
+.I1{
+    width: 174px;
+    height: 52px; 
+    border-radius: 8px;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
