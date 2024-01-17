@@ -1,0 +1,8 @@
+@media screen and (min-width: 576px ) and (max-width: 992px ) {
+    .header-1{
+        flex-direction: column;
+    }
+    .input-item{
+        flex-direction: column;
+    }
+}
